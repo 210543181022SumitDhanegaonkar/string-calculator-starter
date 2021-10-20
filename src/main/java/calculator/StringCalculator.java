@@ -74,5 +74,17 @@ class StringCalculator {
                 throw new ArgumentNullException("negative numbers ans zeros are not allowed");
             }
         }
+    
+      public void findWithAlphabets{
+     
+     String s = "my very long string to test";
+
+     for(String st : s.split(" ")){
+         if(st.startsWith("a")){
+             System.out.println(st);
+         }
+     }
+
+}
 
 }
