@@ -57,4 +57,19 @@ class StringCalculatorShould {
             Assert.AreEqual(3,
                             result);
         }
+    
+    @Test
+	public void test() {
+		JunitTesting  test = new JunitTesting();
+		int  output=test.countO("sumio");
+		assertEquals(2,output);
+	}
+    
+      @Test
+	public void test() {
+		JunitTesting  test = new JunitTesting();
+		int  output=test.countE("sumeet");
+		assertEquals(2,output);
+	}
+    
 }
