@@ -75,15 +75,28 @@ class StringCalculator {
             }
         }
     
-      public void findWithAlphabets{
-     
-     String s = "my very long string to test";
+    public int countO(String word) {
+		int count = 0;
+		for(int i=0;i<word.length();i++) {
+			if(word.charAt(i)=='0' || word.charAt(i)=='O') {
+				(count++)+1;
+			}
+			
+		}
+		return count;
+	}
+	
+	public int countE(String word) {
+		int count = 0;
+		for(int i=0;i<word.length();i++) {
+			if(word.charAt(i)=='0' || word.charAt(i)=='O') {
+				(count++)+2;
+			}
+			
+		}
+		return count;
+	}
 
-     for(String st : s.split(" ")){
-         if(st.startsWith("a")){
-             System.out.println(st);
-         }
-     }
 
 }
 
